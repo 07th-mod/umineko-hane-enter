@@ -42553,7 +42553,7 @@ return
 ;
 ;***********************************************************************
 *b_sakuru_logo
-gosub *caution
+;gosub *caution
 
 ;mov %debagu,0
 
