@@ -5658,7 +5658,7 @@ bg bite,0
 ld c,but_komaruA1,0
 ld r,jes_ikariA1,26
 
-^""Ugyaaaaaaaaaaaaaaa!!!"" ^/
+:dwave 0, "voice\04\JES_02990.ogg":dwave 1, "voice\10\BAT_04660.ogg":^""Ugyaaaaaaaaaaaaaaa!!!"" ^/
 
 ld c,but_sakebuA2,0
 ld r,jes_nakuA3,1
@@ -5686,7 +5686,7 @@ se2v 66,100
 ld c,but_odorokiA2,0
 ld l,jes_ikariA1,26
 
-^""Ugyaaaaaaaaaaaaaaa!!!"" ^/
+:dwave 0, "voice\04\JES_03000.ogg":dwave 1, "voice\10\BAT_04670.ogg":^""Ugyaaaaaaaaaaaaaaa!!!"" ^/
 
 ld c,but_nakuA1,0
 ld l,jes_nakuA1,1
@@ -5714,7 +5714,7 @@ mcbg 0
 ld l,but_odorokiA2,0
 ld r,jes_ikariA1,26
 
-^""Ugyaaaaaaaaaaaaaaa!!!"" ^/
+:dwave 0, "voice\04\JES_03010.ogg":dwave 1, "voice\10\BAT_04680.ogg":^""Ugyaaaaaaaaaaaaaaa!!!"" ^/
 
 ld l,but_sakebuA2,0
 ld r,jes_nakuA3,1
@@ -6437,7 +6437,7 @@ ld r,lam_futekiA2,0
 ld l,ber_akuwaraiA4,80
 se1 37
 
-^""*giggle, giggle, giggle, giggle, giggle*!"" ^\
+:dwave 0, "voice\28\BER_02580.ogg":dwave 1, "voice\29\LAM_01800.ogg":^""*giggle, giggle, giggle, giggle, giggle*!"" ^\
 
 
 ;bg black,1
@@ -6597,8 +6597,8 @@ se1 13
 ;br
 quakey 4,200\
 
-^"...Eh?!" ^@
-^"What?!" ^\
+:dwave 0, "voice\15\SHA_00710.ogg":^"...Eh?!" ^@
+:dwave 0, "voice\10\BAT_04960.ogg":^"What?!" ^\
 
 bg G2F_R1b,46
 
