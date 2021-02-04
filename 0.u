@@ -19,7 +19,7 @@ killmenu 7
 killmenu 4
 ;「ボリューム」項目を非表示
 killmenu 2
-;「表示形式」項目を非表示
+;表示形式項目を非表示
 
 caption "うみねこのなく頃に羽"
 versionstr "うみねこのなく頃に羽　ver1.001","制作　０７ｔｈ　Ｅｘｐａｎｓｉｏｎ"
@@ -4873,7 +4873,7 @@ ld r,but_futekiA2,24
 ld l,sha_odorokiA1,23
 
 
-:dwave 0, "voice\15\SHA_00200.ogg":^"...M-milady? ^@:dwave 0, "voice\15\SHA_00210.ogg":^Is it alright for us to continue?" ^」\
+:dwave 0, "voice\15\SHA_00200.ogg":^"...M-milady? ^@:dwave 0, "voice\15\SHA_00210.ogg":^Is it alright for us to continue?" ^\
 
 ;ld c,jes_atyaA2,24
 mld c,jes_futekiA2,24
@@ -4956,7 +4956,7 @@ cl r,0
 ;ld c,but_aseruA1,80
 ld c,but_aseruA1,24
 
-:dwave 0, "voice\10\BAT_04280.ogg":「^"And I'm gonna wipe out those monsters with no sweat, right? ^@:dwave 0, "voice\10\BAT_04290.ogg":^Right?!" ^@
+:dwave 0, "voice\10\BAT_04280.ogg":^"And I'm gonna wipe out those monsters with no sweat, right? ^@:dwave 0, "voice\10\BAT_04290.ogg":^Right?!" ^@
 
 ld r,sha_odorokiA2,24
 ;ld r,sha_komaruA1,80
@@ -5414,7 +5414,7 @@ ld r,sha_odorokiA2,24
 ;cl r,0
 ;cl c,22
 ld l,but_niramuA3,80
-:dwave 0, "voice\10\BAT_04450.ogg":^"Alright. ^@:dwave 0, "voice\10\BAT_04460.ogg":^...Shannon. ^@:dwave 0, "voice\10\BAT_04470.ogg":^Go ahead with the next bit of narration, please." ^」\
+:dwave 0, "voice\10\BAT_04450.ogg":^"Alright. ^@:dwave 0, "voice\10\BAT_04460.ogg":^...Shannon. ^@:dwave 0, "voice\10\BAT_04470.ogg":^Go ahead with the next bit of narration, please." ^\
 
 ld r,sha_majimeA3,80
 wait 500
@@ -5560,7 +5560,7 @@ quakey 2,500
 @/
 E_A
 se1 47
-:dwave 0, "voice\98\YUK_00030.ogg":……ッ？！@/
+:dwave 0, "voice\98\YUK_00030.ogg":...!?!@/
 bgm1 92
 ^...*cough* ^/
 
@@ -6020,7 +6020,7 @@ ld l,lam_futekiA2,22
 ;ld r,but_majimeA2,24
 ld r,but_odorokiA1,24
 
-:dwave 0, "voice\10\BAT_04790.ogg":^"...It's over, Lambdadelta! ^@:dwave 0, "voice\10\BAT_04800.ogg":^Let us go already!" ^」@
+:dwave 0, "voice\10\BAT_04790.ogg":^"...It's over, Lambdadelta! ^@:dwave 0, "voice\10\BAT_04800.ogg":^Let us go already!" ^@
 
 ld l,lam_akuwaraiA3,80
 
