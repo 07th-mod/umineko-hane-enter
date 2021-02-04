@@ -5837,26 +5837,9 @@ E_A
 bgm1 159
 
 wait 1000
-
-;;mevol 1,50
-lsp bgsp,tower1,0,-720,0
-for %Free1 = 1 to 128
-resettimer
-msp bgsp,0,2,2
-waittimer 5
-
-print 1
-next
-for %Free1 = 1 to 232
-resettimer
-msp bgsp,0,2,0
-waittimer 5
-print 1
-next
-bgcopy
-csp bgsp
-print 2
-;
+bg tower1,8
+wait 1000
+bg tower2,10
 ^At the summit of the tower, there was a human figure. ^@
 br
 ^He was wearing a large, jet-black cloak, and his silhouette had an imposing presence. ^@
